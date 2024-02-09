@@ -1,0 +1,231 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.movicard {
+    height: 100vh;
+}
+
+.movicard img {
+    height: 100%;
+    object-fit: cover;
+    /* cursor: pointer;
+    background-position: center; */
+
+}
+
+/* figcaption.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)80%, transparent);
+    height: 100%;
+} */
+.movicard .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.6) 60%, rgba(0,0,0,.4) 75%, transparent);
+    color:white;
+}
+
+button.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.owl-next {
+    right: 10px;
+
+}
+
+.owl-prev {
+    left: 10px;
+
+}
+
+.owl-dots {
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+
+    width: 100%;
+}
+
+
+/* for movimain  */
+.heroimg {
+    /* height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative; */
+
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.movicontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+ ul.movidetailse {
+    display: flex;
+    list-style: none;
+    /* margin-left: -55px; */
+} 
+
+.movidetailse li {
+    border-right: 2px solid rgb(201, 185, 185);
+    padding: 0 15px 0 15px;
+}
+
+.movidetailse li:last-child {
+    border: 0px;
+}
+
+.movidetailse li:first-child {
+    padding-left: opx;
+}
+
+span {
+    display: block;
+    border: 2px solid;
+    padding: 0 10px;
+}
+
+img.figlogo {
+    max-width: 200px;
+
+}
+.movieimg .logo {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+}
+
+
+.backpage {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 50px;
+    color: white;
+}
+
+/* .heroimg::before {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(0deg, rgba(30, 21, 21, 0.653), rgba(0, 0, 0, 0.516), transparent);
+    bottom: -400px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    height: 50vh;
+    z-index: 10;
+} */
+.heroimg::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0) 10%, rgba(0, 0, 0, 0.7) 60%, transparent);
+    display: inline-block;position: absolute;
+}
+
+/* videocss */
+
+
+.primaryhead {
+    font-size: 35px;
+    font-weight: 400px;
+    line-height: 34px; 
+    color: rgb(199 190 190 / 51%);
+}
+
+.movivideo{
+    background-color:black;
+    
+}
+.primaryhead small {
+    color: rgb(199 190 190 / 51%);
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+
+/* .movivideo.container{
+    background-color: black;
+} */
+img.videoimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+}
+.playimg {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    align-items: center;
+}
+
+i.fa-regular.fa-circle-play.fa-2x {
+    background-color: rgb(18, 14, 14);
+    border-radius: 12px;
+    color: rgb(244, 247, 248);
+}
+.paraname{
+    color: beige;
+    font-size: 30px;
+    font-style: italic;
+}
+.backdrop{
+position:fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.9);
+z-index: 9; 
+}
+.trailermodel{
+position:fixed;
+top: 40%;
+left: 20%;
+width: 60%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.9);
+z-index: 8; 
+}
+.backdrop i{
+   position:absolute;
+   top: 20px;
+   left: 20px;
+   color: brown;
+   cursor: pointer;
+   transition: all 0.4s ease-in-out;
+}
+
+
